@@ -1,6 +1,7 @@
-// const arr = ['a', 'b', 'c', 'd']
-// const r = arr.entries();
+function isEnough(value) {
+  return value >= 10;
+}
 
-// for (let a of r) {
-//   console.log(a);
-// }
+const filter = [12, 5, 8, 130, 44].filter(isEnough);
+
+console.log(filter);
